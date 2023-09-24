@@ -24,7 +24,6 @@ This is a simple React component that allows you to draw circles on a canvas and
 
 To run this project locally, follow these steps:
 
-```
 # 1. Clone the repository:
 ```
 git clone https://github.com/your-username/react-memory-game.git
