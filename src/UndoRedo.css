@@ -1,0 +1,50 @@
+.main {
+  background-color: black;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.buttons {
+  padding: 10px 0px 0px 10px;
+  display: flex;
+  gap: 20px;
+  position: absolute;
+  z-index: 1;
+}
+button{
+  border: none;
+  border-radius: 3px;
+  background-color: aqua;
+  color: black;
+  font-weight: bold;
+  padding: 5px 20px;
+  letter-spacing: 1px;
+}
+button:not([disabled]):hover{
+  outline: 2px chocolate solid;
+  outline-offset: 2px;
+}
+button:disabled{
+  background-color: gray;
+}
+.section {
+  height: 100%;
+  overflow: auto;
+  position: absolute;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.circle {
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: aqua;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+}
