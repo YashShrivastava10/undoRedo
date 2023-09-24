@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/undoRedo/static/css/main.92ee94e6.css",
+    "main.js": "/undoRedo/static/js/main.00efbf05.js",
+    "static/js/787.177a4664.chunk.js": "/undoRedo/static/js/787.177a4664.chunk.js",
+    "index.html": "/undoRedo/index.html",
+    "main.92ee94e6.css.map": "/undoRedo/static/css/main.92ee94e6.css.map",
+    "main.00efbf05.js.map": "/undoRedo/static/js/main.00efbf05.js.map",
+    "787.177a4664.chunk.js.map": "/undoRedo/static/js/787.177a4664.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92ee94e6.css",
+    "static/js/main.00efbf05.js"
+  ]
+}
