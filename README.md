@@ -54,4 +54,4 @@ If you have any questions, suggestions, or would like to report a bug, please fe
 - **GitHub:** [GitPal](https://github.com/YashShrivastava10)
 - **LinkedIn:** [linkedin.com/in/yash-shrivastava-7980911bb/](https://www.linkedin.com/in/yash-shrivastava-7980911bb/)
 
-Thank you for using Synonyms!
+Thank you for using UndoRedo!
