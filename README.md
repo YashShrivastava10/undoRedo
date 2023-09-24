@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Undo-Redo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple React component that allows you to draw circles on a canvas and provides undo and redo functionality for your drawings.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Contact](#contact)
 
-### `npm start`
+## Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Undo-Redo](https://yashshrivastava10.github.io/undoRedo/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Click on the canvas to draw circles.
+- Undo button to remove the last drawn circle.
+- Redo button to bring back undone circles.
+- Reset button to clear all circles.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+To run this project locally, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+# 1. Clone the repository:
+```
+git clone https://github.com/your-username/react-memory-game.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 2. Navigate to the project directory:
+```
+cd react-memory-game
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 3. Install dependencies:
+```
+npm install
+```
 
-### `npm run eject`
+# 4. Start the development server:
+```
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+If you have any questions, suggestions, or would like to report a bug, please feel free to contact the project maintainer:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Name:** Yash Shrivastava
+- **Email:** [shrivastavayash10@gmail.com](shrivastavayash10@gmail.com)
+- **GitHub:** [GitPal](https://github.com/YashShrivastava10)
+- **LinkedIn:** [linkedin.com/in/yash-shrivastava-7980911bb/](https://www.linkedin.com/in/yash-shrivastava-7980911bb/)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for using Synonyms!
