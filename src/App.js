@@ -1,5 +1,5 @@
 import './App.css';
-import UndoRedo from "./UndoRedo";
+import { UndoRedo } from './UndoRedo';
 
 function App() {
   return (
