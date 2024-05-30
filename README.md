@@ -24,22 +24,22 @@ This is a simple React component that allows you to draw circles on a canvas and
 
 To run this project locally, follow these steps:
 
-# 1. Clone the repository:
+### 1. Clone the repository:
 ```
-git clone https://github.com/your-username/react-memory-game.git
-```
-
-# 2. Navigate to the project directory:
-```
-cd react-memory-game
+git clone https://github.com/YashShrivastava10/undoRedo.git
 ```
 
-# 3. Install dependencies:
+### 2. Navigate to the project directory:
+```
+cd undoRedo
+```
+
+### 3. Install dependencies:
 ```
 npm install
 ```
 
-# 4. Start the development server:
+### 4. Start the development server:
 ```
 npm start
 ```
