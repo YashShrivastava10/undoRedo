@@ -6,6 +6,25 @@ class UndoRedo extends Component {
     circle: [],
     undoPoints: [],
   }
+
+  componentDidMount() {
+    window.addEventListener("keydown", this.handleKeyPress)
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("keydown", this.handleKeyPress)
+  }
+
+  handleKeyPress = (e) => {
+    if (e.ctrlKey && (e.key === "z" || e.key === "Z")) {
+      if (this.state.circle.length) this.undo()
+    }
+    else if (e.ctrlKey && (e.key === "y" || e.key === "Y")) {
+      if (this.state.undoPoints.length) this.redo()
+    }
+
+  }
+  
   handleClick = (e) => {
     this.setState({ circle: [...this.state.circle, { x: e.clientX, y: e.clientY }] })
   }
@@ -31,8 +50,8 @@ class UndoRedo extends Component {
     return (
       <div className='main'>
         <div className='buttons'>
-          <button disabled={!this.state.circle.length} onClick={this.undo}>Undo</button>
-          <button disabled={!this.state.undoPoints.length} onClick={this.redo}>Redo</button>
+          <button disabled={!this.state.circle.length} onClick={this.undo}>Undo (Ctrl + Z)</button>
+          <button disabled={!this.state.undoPoints.length} onClick={this.redo}>Redo (Ctrl + Y)</button>
           <button disabled={!(this.state.undoPoints.length || this.state.circle.length)} onClick={this.reset}>Reset</button>
         </div>
         <div className='section' onClick={(e) => this.handleClick(e)}>
