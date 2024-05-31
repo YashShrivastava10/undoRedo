@@ -1,7 +1,7 @@
 import "./UndoRedo.css"
-import { useUndoRedoHook } from './useUndoRedoHook';
+import { useUndoRedoHook } from "./useUndoRedoHook";
 
-export const UndoRedo = () => {
+export const UndoRedo: React.FC = () => {
 
   const { circle, undoPoints, undo, redo, reset, handleClick } = useUndoRedoHook()
 
